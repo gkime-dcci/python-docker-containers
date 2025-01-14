@@ -31,5 +31,5 @@ class Scraper:
       self.driver.get(url)
       self.logger.info(f"Go to {url}: SUCCESS")
     except Exception as e:
-      self.logger.error(f"Go to {url}: FAILL {str(e)}")
+      self.logger.error(f"Go to {url}: FAIL {str(e)}")
 
